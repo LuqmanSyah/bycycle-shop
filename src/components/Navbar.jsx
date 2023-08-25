@@ -15,10 +15,6 @@ const links = [
         name: "Products",
         path: "/products",
     },
-    {
-        name: "Contact",
-        path: "/contact",
-    },
 ];
 
 const Navbar = () => {
