@@ -7,7 +7,7 @@ const Layouts = ({ children, className }) => {
         <>
             <div className="font-monospace">
                 <Navbar />
-                <div className={className} style={{ minHeight: "450px" }}>{children}</div>
+                <div className={className} style={{ minHeight: "470px" }}>{children}</div>
                 <Footer />
             </div>
         </>
