@@ -18,7 +18,7 @@ const LoginPage = () => {
                             Password
                         </InputGroup>
                         <Button classes="btn-primary w-100 rounded-5">Login</Button>
-                        <p className="small my-3">
+                        <p className="small my-3 text-center">
                             Don't have an account?{" "}
                             <Link to="/register" className="text-decoration-none">
                                 Register
