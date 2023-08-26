@@ -11,11 +11,18 @@ const LoginPage = () => {
             <div className="d-flex justify-content-center">
                 <div className="card border-0">
                     <div className="card-body">
-                        <InputGroup type="email" name="email" placeholder="example@gmail.com">Email</InputGroup>
-                        <InputGroup type="password" name="password" placeholder="*****">Password</InputGroup>
+                        <InputGroup type="email" name="email" placeholder="example@gmail.com">
+                            Email
+                        </InputGroup>
+                        <InputGroup type="password" name="password" placeholder="*****">
+                            Password
+                        </InputGroup>
                         <Button classes="btn-primary w-100 rounded-5">Login</Button>
                         <p className="small my-3">
-                            Don't have an account? <Link to="/register" className="text-decoration-none">Register</Link>
+                            Don't have an account?{" "}
+                            <Link to="/register" className="text-decoration-none">
+                                Register
+                            </Link>
                         </p>
                     </div>
                 </div>
